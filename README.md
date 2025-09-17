@@ -1,6 +1,6 @@
 # 다양한 언어, 다양한 환경에서의 Local MCP Server 예시 코드 입니다.
 
-## 1. http-ping (Node)
+### 1. http-ping (Node)
 
 1. http-ping 전역 설치
 2. Install & Build
@@ -11,7 +11,7 @@
    pnpm dev
    ```
 
-## 2. sysinfo-go (GO)
+### 2. sysinfo-go (GO)
 
 1. go 설치 ( https://go.dev/dl/ )
 2. Install & Build
@@ -20,11 +20,11 @@
      go build -o sysinfo-go.exe #빌드 산출물 생성
      ```
 
-## 3. fs-list-rs (Rust)
+### 3. fs-list-rs (Rust)
 
 1. Rust 설치 ( https://www.rust-lang.org/tools/install )
 
-# 4. http-java (java)
+### 4. http-java (java)
 
 1. java 설치
 2. java-development-kit 다운로드 ( https://www.oracle.com/java/technologies/downloads/?er=221886#jdk25-windows )
@@ -38,7 +38,7 @@
   2. path에 추가
      <img width="194" height="34" alt="image (2)" src="https://github.com/user-attachments/assets/6e31f3ca-7be1-4e2f-8d1a-fd5e48a3d2d8" />
 
-## 5. guid-marker-net (C#)
+### 5. guid-marker-net (C#)
 
 1. 프로젝트 생성
    ```
