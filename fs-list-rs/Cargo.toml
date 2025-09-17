@@ -1,0 +1,10 @@
+[package]
+name = "fs-list-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rmcp = { version = "0.6.4", features = ["server", "transport-io", "macros"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "io-std"] }
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }

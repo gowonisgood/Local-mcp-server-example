@@ -1,0 +1,2 @@
+(Tool, for<'a> fn(&'a FsList, {type error}) -> Pin<Box<(dyn Future<Output = Result<rmcp::model::CallToolResult, std::string::String>> + Send + 'a)>> {FsList::list_dir})
+(Tool, for<'a> fn(&'a FsList, {type error}) -> Pin<Box<(dyn Future<Output = Result<rmcp::model::CallToolResult, std::string::String>> + Send + 'a)>> {FsList::list_dir}): IntoToolRoute<FsList, _>

@@ -1,0 +1,1 @@
+{"name":"mcp-http-ping","private":true,"type":"module","scripts":{"build":"tsc -p .","start":"node build/index.js","dev":"tsx --no-warnings src/index.ts","mcp":"npm run build && node build/index.js"},"dependencies":{"@modelcontextprotocol/sdk":"^1.0.0","undici":"^6.19.8","zod":"^4.1.8"},"devDependencies":{"@types/node":"^24.5.0","tsx":"^4.19.2","typescript":"^5.5.4"}}
