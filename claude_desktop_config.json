@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "http-ping": {
+      "command": "node",
+      "args": [
+        "D:\\GIT\\MCP\\tracing_test\\http-ping\\build\\index.js"
+      ]
+    },
+    "sysinfo-go": {
+      "command": "D:\\GIT\\MCP\\tracing_test\\sysinfo-go\\sysinfo-go.exe",
+      "args": []
+    },
+    "fs-list-rs": {
+      "command": "D:\\GIT\\MCP\\tracing_test\\fs-list-rs\\target\\debug\\fs-list-rs.exe",
+      "args": [],
+      "env": {
+        "RUST_LOG": "info"
+        }
+    },
+    "time-http": {
+        "command": "java",
+        "args": [
+          "-jar",
+          "D:\\GIT\\MCP\\tracing_test\\time-http\\target\\time-http-0.1.0.jar"
+        ]
+    },
+    "guid-maker-net": {
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "D:\\GIT\\MCP\\tracing_test\\guid-maker-net\\guid-maker-net.csproj",
+        "--no-build",
+        "--verbosity",
+        "quiet"
+      ]
+    }
+  }
+}
